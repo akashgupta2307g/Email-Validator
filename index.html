@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/email.svg" alt="asb">
+                <span>EmailValidate</span>
+            </div>
+            <ul>
+                <li><a href="/">Home </a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="Container">
+            <h1>Enter Your Email To Validate</h1>
+            <form action="/submit" method="post">
+                <label for="email"><strong>Email Id:</strong></label>
+                <input type="text" id="email" name="email">
+                <br>
+                <input class="button" type="submit" value="Submit">
+
+            </form>
+        </div>
+        <div  class = "Container">
+            <h2>Your Results</h2>
+           <div id="resultContainer">
+        </div> 
+        </div>
+    </main>
+    <footer>
+        Copyright | EmailValidate.com | All Right Reserved
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
